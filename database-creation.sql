@@ -27,7 +27,7 @@ CREATE TABLE exxtraction_results(
   Founder_name varchar(255),
   Founder_designation varchar(255),
   Investor_name varchar(255),
-  Investment_amount varchar(255),
+  Investment_amount int,
   FOREIGN KEY(article_id) REFERENCES articles(article_id),
   FOREIGN KEY(model_id) REFERENCES models(model_id)  
 );
